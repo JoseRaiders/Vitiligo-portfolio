@@ -101,3 +101,26 @@ header {
     border: 1px solid var(--secondary-color);
     color: #fff;
 }
+
+/* ---INFO--- */
+.info {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.myths {
+    margin: 50px;
+}
+
+.info p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.info-headings {
+    margin-top: 20px;
+}
