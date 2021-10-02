@@ -48,7 +48,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
     background-size: cover;
     background-position: center;
-    height: 60vh; /* vh = 100% of the view point */
+    height: 40vh; /* vh = 100% of the view point */
     }
 }
 
@@ -61,8 +61,44 @@ header {
     }
 }
 
+@media (max-width: 869px) {
+.md-photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh; /* vh = 100% of the view point */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 740px) {
+.mxd-photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh; /* vh = 100% of the view point */
+    }
+}
+
+@media (min-width: 640px) {
+.mxd-photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh; /* vh = 100% of the view point */
+    }
+}
+
+@media (max-width: 568px) {
+.mxd-photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 140vh; /* vh = 100% of the view point */
+    }
+}
+
 @media (max-width: 479px) {
-.small-photo {
+.sm-photo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
     background-size: cover;
     background-position: center;
