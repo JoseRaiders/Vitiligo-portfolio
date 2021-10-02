@@ -1,4 +1,103 @@
 body {
     margin: 0 auto;
     background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+h1, h2, .intro-heading {
+    font-family: 'Karma';
+    text-align: center;
+    margin: 0;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #212121;
+    --secondary-color: #6D9886;
+    --tertiary-color: #D9CAB3;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ---HEADER--- */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 82vh; /* vh = 100% of the view point */
+}
+
+.hero-text-box {
+    margin: 100px 20px;
+}
+
+.intro-heading {
+    font-size: 32px;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+.description {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+/* ---BUTTONS--- */
+.ctas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ctas a {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-full:hover, .btn-full:active {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-ghost:link, .btn-ghost:visited {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    margin-left: 20px;
+}
+
+.btn:hover, .btn:active {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid var(--secondary-color);
+    color: #fff;
 }
