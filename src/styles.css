@@ -37,7 +37,7 @@ p {
 
 /* ---HEADER--- */
 .hero-text-box {
-    margin: 60px 20px 50px;
+    margin: 40px 20px 50px;
 }
 
 .intro-heading {
@@ -167,6 +167,7 @@ header {
 
 .emphasis {
     color: var(--secondary-color);
+    font-weight: bold;
 }
 
 /* ---CARDS ---*/
@@ -181,6 +182,6 @@ header {
 }
 
 .card-fade-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/pexels-armin-rimoldi-bw_v2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/pexels-armin-rimoldi-coloured.jpg);
     background-position: center;
 }
