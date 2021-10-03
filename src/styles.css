@@ -36,99 +36,8 @@ p {
 }
 
 /* ---HEADER--- */
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 110vh; /* vh = 100% of the view point */
-}
-
-@media (max-width: 1280px) {
-.xl-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 40vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (max-width: 1024px) {
-.lg-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 43vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (max-width: 869px) {
-.md-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 110vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (min-width: 481px) and (max-width: 740px) {
-.mxd-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 120vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (min-width: 640px) {
-.mxd-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 120vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (max-width: 568px) {
-.mxd-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 140vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (max-width: 479px) {
-.sm-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 80vh; /* vh = 100% of the view point */
-    }
-}
-
-@media (max-width: 320px) {
-.xs-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* vh = 100% of the view point */
-    }
-
 .hero-text-box {
-    margin: 10px 20px;
-    }
-
-.intro-heading {
-    font-size: 20px;
-    }
-
-h1 .heading {
-    font-size: 30px;  
-    }
-}
-
-.hero-text-box {
-    margin: 60px 20px;
+    margin: 60px 20px 50px;
 }
 
 .intro-heading {
@@ -143,6 +52,12 @@ h1 .heading {
     text-align: center;
     font-weight: 300;
     margin-top: 25px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* ---BUTTONS--- */
@@ -207,7 +122,15 @@ h1 .heading {
     transition: border-bottom 0.2s;
 }
 
-.btn-white:hover, .btn-white:active { 
+.btn-card:link, .btn-card:visited {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.btn-white:hover, .btn-white:active, 
+.btn-card:hover, .btn-card:active { 
     border-bottom: 2px solid var(--secondary-color);   
 }
 
@@ -217,6 +140,7 @@ h1 .heading {
     transition: border-bottom 0.2s;
     border-bottom: 2px solid var(--secondary-color);
 }
+
 
 /* ---INFO--- */
 .info {
@@ -247,16 +171,16 @@ h1 .heading {
 
 /* ---CARDS ---*/
 .card-fade {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/world-day.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/world-day.jpg);
     background-position: center;
 }
 
 .card-fade-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/vitiligo_beauty.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/vitiligo_beauty.jpg);
     background-position: center;
 }
 
 .card-fade-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/pexels-armin-rimoldi-bw_v2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/pexels-armin-rimoldi-bw_v2.jpg);
     background-position: center;
 }
