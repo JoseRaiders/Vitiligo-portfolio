@@ -230,6 +230,15 @@ header {
 }
 
 .about-more {
-    
     margin-bottom: 30px;
+}
+
+.about-boxes {
+    width: 80%; 
+    height: 300px; 
+    border-radius: 21px 21px 0 0;
+}
+
+.fas {
+    color: var(--secondary-color);
 }
