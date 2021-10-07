@@ -60,6 +60,10 @@ header {
     background-position: center;
 }
 
+.about-heading {
+    text-align: left;
+}
+
 /* ---BUTTONS--- */
 .ctas {
     display: flex;
@@ -74,6 +78,18 @@ header {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
+}
+
+.btn {
+    outline: none;
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+.btn:focus {
+  box-shadow: none;
 }
 
 .btn-full:link, .btn-full:visited {
@@ -141,6 +157,20 @@ header {
     border-bottom: 2px solid var(--secondary-color);
 }
 
+.btn-about:link, .btn-about:visited {
+    margin-right: 20px; 
+    padding: 8px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 2px solid var(--secondary-color);   
+    transition: border-bottom 0.2s;
+}
+
+.btn-about:hover, .btn-about:active { 
+    border-bottom: 2px solid transparent;
+}
 
 /* ---INFO--- */
 .info {
@@ -184,4 +214,22 @@ header {
 .card-fade-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/pexels-armin-rimoldi-coloured.jpg);
     background-position: center;
+}
+
+/* ---ABOUT--- */
+.profile {
+    opacity: 0.3;
+    border-radius: 30px;
+}
+.profile:hover {
+  opacity: 0.5;
+}
+
+.bg-teal {
+    background-color: var(--secondary-color);
+}
+
+.about-more {
+    
+    margin-bottom: 30px;
 }
