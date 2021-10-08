@@ -21,7 +21,7 @@ h2 {
     font-size: 32px;
 }
 
-p {
+p, .faq-answer, .faq-common {
     font-size: 16px;
     line-height: 150%;
     font-family: var(--default-font-family);
@@ -56,6 +56,12 @@ p {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/holdhands_vitiligo_bw_v2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.faqs-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/handshake_vitiligo_v2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -240,5 +246,58 @@ header {
 }
 
 .icon {
+    color: var(--secondary-color);
+}
+
+/* ---FAQs--- */
+.faqs {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #212121, #6D9886);
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+
+.faq-answer {
+    padding: 0 20px;
+}
+
+.faq-common {
+    margin: 10px 20px;
+}
+
+.resource {
     color: var(--secondary-color);
 }
