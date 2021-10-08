@@ -301,3 +301,8 @@ details[open] summary ~ * {
 .resource {
     color: var(--secondary-color);
 }
+
+/* ---CONTACT--- */
+.contact-header {
+    margin: 40px auto;
+}
