@@ -302,6 +302,10 @@ details[open] summary ~ * {
     color: var(--secondary-color);
 }
 
+.faq-icon {
+    font-size: 2.4em;
+}
+
 /* ---CONTACT--- */
 .contact-header {
     margin: 40px auto;
